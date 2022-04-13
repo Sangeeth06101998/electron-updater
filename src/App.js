@@ -7,8 +7,7 @@ function App() {
 			<header className="App-header">
 				<img src={logo} className="App-logo" alt="logo" />
 				<p>
-					Hello
-					Autoupdater Demo v{process.env.REACT_APP_VERSION}
+					Hello Welcome
 				</p>
 			</header>
 		</div>
