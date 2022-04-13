@@ -1,12 +1,12 @@
 {
 	"name": "autoupdater-demo",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"private": true,
 	"main": "public/electron.js",
 	"homepage": "./",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Sangeeth06101998/electron-updater"
+		"url": "git@github.com:Sangeeth06101998/electron-updater.git"
 	},
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.16.2",
@@ -25,7 +25,7 @@
 	"scripts": {
 		"start": "concurrently \"cross-env BROWSER=none react-scripts start\" \"wait-on http://localhost:3000 && electron .\"",
 		"build:prod": "react-scripts build && electron-builder --win",
-		"build:publish": "set GH_TOKEN='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' && react-scripts build && electron-builder --win --publish always"
+		"build:publish": "set GH_TOKEN=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 && react-scripts build && electron-builder --win --publish always"
 	},
 	"build": {
 		"appId": "com.autoupdater.demo",
